@@ -2,10 +2,6 @@
 
 CF_TOKEN=${CF_TOKEN:-""}
 
-echo "Starting dstatus app..."
-node nekonekostatus.js &
-sleep 3
-
 # 启动 cloudflared
 if [ -n "$CF_TOKEN" ]; then
     echo "Starting cloudflared..."
