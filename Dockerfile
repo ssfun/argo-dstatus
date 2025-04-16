@@ -4,4 +4,4 @@ COPY --from=cloudflare/cloudflared:latest /usr/local/bin/cloudflared /usr/local/
 
 COPY . .
 
-CMD ["/start.sh"]
+ENTRYPOINT ["/entrypoint.sh"]
