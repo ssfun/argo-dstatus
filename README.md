@@ -2,7 +2,7 @@
 
 ## 简介
 
-为 [Beszel](https://github.com/fev125/dstatus) 提供一个可扩展的服务，支持数据备份和恢复功能。使用 AWS S3 兼容的存储服务（如 Cloudflare R2）来存储备份数据，并提供自动化的备份和恢复机制。
+为 [Dstatus](https://github.com/fev125/dstatus) 提供一个可扩展的服务，支持数据备份和恢复功能。使用 AWS S3 兼容的存储服务（如 Cloudflare R2）来存储备份数据，并提供自动化的备份和恢复机制。
 
 ## 功能特点
 
